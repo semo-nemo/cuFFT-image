@@ -20,6 +20,13 @@ Result after cuFFT twice - where top 5 and bottom 5 frequency modes are filtered
 ![Output image converted using Box Filter, code given in the lab](https://github.com/semo-nemo/cuFFT-image/blob/main/fft-semonemo-2-2.png?raw=true) 
 Result after cuFFT twice - where top 5 and bottom 5 frequency modes are filtered out.
 
+## Background
+
+In the GPU programming course on Coursera, 
+[there was an assigment with PNG image](https://www.coursera.org/learn/introduction-to-parallel-programming-with-cuda/home/module/2).
+[there was also an assigment with cuFFT on 2d matrix](https://www.coursera.org/learn/cuda-advanced-libraries/home/module/2). 
+I merged these two ideas to run cuFFT on a PNG image.
+
 ## How to build and run:
 ```
 make clean build
