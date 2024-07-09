@@ -1,0 +1,17 @@
+Parsing CLI arguments
+inputImage: semonemo.png outputImage: fft-semonemo.png currentPartId: test threadsPerBlock: 256
+Reading Image From File
+Rows: 1936 Columns: 2592
+Transforming signal cufftExecR2C
+Filter some FFT components<<< >>>
+Transforming signal back cufftExecC2C
+Transforming signal cufftExecR2C
+Filter some FFT components<<< >>>
+Transforming signal back cufftExecC2C
+Transforming signal cufftExecR2C
+Filter some FFT components<<< >>>
+Transforming signal back cufftExecC2C
+Create Matrix to write output pixels
+Assign RGB intensities 
+Write image to file 
+Finished 
