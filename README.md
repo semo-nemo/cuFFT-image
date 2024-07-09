@@ -3,6 +3,9 @@
 For each RGB channel of a color image, we run 2-dimensional cuFFT twice to get the image back.
 We also experiment with filtering out low and high frequency modes.
 
+For each RGB channel of a color image, we run 2-dimensional cuFFT twice to get the image back. We also experiment with filtering out low and high frequency modes.
+
+[Video demonstration](https://www.youtube.com/watch?v=ublJMWb9yVc)
 
 Original photo  
 ![Original photo in colors](https://github.com/semo-nemo/cuFFT-image/blob/main/semonemo.png?raw=true) 
